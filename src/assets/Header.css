@@ -1,0 +1,38 @@
+/* Header.css */
+.header {
+	height: 100%;
+	background: url("https://images.unsplash.com/photo-1598215451314-adcc15701d4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat; 
+    background-position: center;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: end;
+	height: 150px;
+}
+
+.overlay {
+	height: 150px;
+	background: rgba(
+		0,
+		0,
+		0,
+		0.5
+	); 
+	padding: 20px;
+	width: 100%;
+}
+
+h1 {
+	margin-right: 1em;
+	font-size: 3em;
+	margin-top:0.6em;
+	
+}
+
+p {
+	
+	margin-right: 1em;
+	font-size: 1.5em;
+}

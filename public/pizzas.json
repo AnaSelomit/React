@@ -1,0 +1,35 @@
+[
+    
+    {
+      "desc": "Si prefieres o tienes una dieta a base de verduras esta pizza es ideal, la combinación de cebolla morada y de tomate cherry le da un intenso y particular sabor.",
+      "id": "P002",
+      "img": "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": ["mozzarella", "tomate cherry", "cebolla", "champiñones"],
+      "name": "Vegetariana",
+      "price": 8200
+    },
+    {
+      "desc": "La pizza Napolitana es un tipo de pizza que se originó en la ciudad de Nápoles, Italia. Este tipo de pizza se suele preparar con ingredientes simples y frescos. Una masa básica, salsa de tomate natural, queso mozzarella, albahaca fresca y aceite de oliva.",
+      "id": "P001",
+      "img": "https://images.unsplash.com/photo-1598023696416-0193a0bcd302?q=80&w=1872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": ["mozzarella", "tomates", "jamón", "orégano"],
+      "name": "Napolitana",
+      "price": 7200
+    },
+    {
+      "desc": "La pizza margarita (en italiano pizza Margherita) es una típica pizza napolitana elaborada con tomate, mozzarella (tradicionalmente se usa el Fior di latte), albahaca fresca, sal y aceite. Se trata de la pizza napolitana más popular, junto con la marinera.",
+      "id": "P005",
+      "img": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": ["mozzarella", "albahaca", "aceite oliva"],
+      "name": "Pizza margarita",
+      "price": 5800
+    },
+    {
+      "desc": "La pizza con salame o peperoni es una de las clásicas de Nueva York. Se trata de una base de masa esponjosa con rico sabor a levadura, una salsa liviana, aunque podría ser picante si es de tu gusto, abundante queso y unas rodajas de salame.",
+      "id": "P003",
+      "img": "https://images.unsplash.com/photo-1700760934249-93efbb574d23?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": ["mozzarella", "tomates", "salame", "orégano"],
+      "name": "Pizza Salame",
+      "price": 7500
+    }
+  ]

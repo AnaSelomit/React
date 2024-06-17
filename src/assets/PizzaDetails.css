@@ -1,0 +1,208 @@
+/* PizzaDetails.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.details-container {
+	max-width: 600px;
+	margin: 50px auto;
+	margin-bottom: 100px;
+	padding: 20px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #625f5f;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(65, 65, 65, 0.1);
+	text-align: center;
+}
+
+.details-container h2 {
+	font-size: 2em;
+	margin: 10px;
+	text-transform: capitalize;
+
+	color: #000000;
+}
+
+.details-container img {
+	width: 100%;
+	max-height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.details-container p {
+	font-size: 1rem;
+	margin-bottom: 5px;
+
+	color: #000000;
+}
+
+.details-container li {
+	color: #050505;
+}
+
+.desc-container {
+	justify-content: space-around;
+}
+.ingredients-container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ingredients-container ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+
+	top: 100%;
+	left: 78%;
+}
+
+.ingredients-container ul li {
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.ingredients-container ul li:last-child {
+	border-bottom: none;
+}
+
+.ingredients-container:hover ul {
+	display: block;
+}
+
+
+
+.btn-container {
+	display: flex;
+	margin: 5px;
+	justify-content: center;
+}
+
+.btn-card-add,
+.btn-card-remove {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 5px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #333;
+	transition: 0.3s, color 0.3s;
+	cursor: pointer;
+}
+
+.btn-card-add {
+	background-color: yellow;
+}
+.btn-card-add:hover {
+	background-color: rgb(171, 171, 110);
+	transform: scale(1.03);
+}
+
+.btn-card-remove {
+	background-color: red;
+}
+
+.btn-card-remove:hover {
+	background-color: rgb(126, 45, 45);
+	transform: scale(1.03);
+}
+
+/* CSS */
+.button-55 {
+	align-self: center;
+	background-color: #fff;
+	background-image: none;
+	background-position: 0 90%;
+	background-repeat: repeat no-repeat;
+	background-size: 4px 3px;
+	border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+	box-sizing: border-box;
+	color: #41403e;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Neucha, sans-serif;
+	font-size: 1rem;
+	line-height: 23px;
+	outline: none;
+	padding: 0.75rem;
+	text-decoration: none;
+	transition: all 235ms ease-in-out;
+
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.button-55:hover {
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+	transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+.ingredients-container {
+	position: relative;
+}
+
+.ingredients-dropdown {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ingredients-dropdown-enter {
+	opacity: 0;
+}
+.ingredients-dropdown-enter-done {
+	display: block;
+}
+
+.ingredients-dropdown-enter-active {
+	opacity: 1;
+	transition: opacity 0.3s ease;
+}
+
+.ingredients-dropdown-exit {
+	opacity: 1;
+}
+
+.ingredients-dropdown-exit-active {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.enlace-atras {
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.3s;
+	font-family: "Outfit";
+}
+
+.enlace-atras:hover {
+	transform: scale(1.05);
+}
+
+.pizza-name {
+	font-family: "Outfit";
+}
+
+ul {
+	font-family: "Outfit";
+	list-style-position: inside;
+
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+	padding: 0;
+	margin: 0;
+}
+
